@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form {
+    margin: 0 auto;
+    width: 400px;
+    /*bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+            }
+        .button {
+            padding-left: 90px;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="/clientes" method="POST" accept-charset="UTF-8" autocomplete="off">
+        Nome:<br>
+        <input type="text" name="nome" max="30">
+        <br>
+        Endereço:<br>
+        <input type="text" name="Endereço" max="50">
+        <br>
+        Email:<br>
+        <input type="email" name="Email">
+        <br>
+       
+        <input type="checkbox" name="Desejo receber newsletter">Desejo receber newsletter
+        <br>
+        <input type="submit" value="Cadastrar"> <input type="reset" value="Cancelar">
+    </form>
+    <br><br>
+    <a href="/exercicio6.html">Exercicio anterior</a>
+</body>
+</html>
